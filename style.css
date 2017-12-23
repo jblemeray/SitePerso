@@ -1,0 +1,285 @@
+* {box-sizing:border-box}
+
+body{
+	background-color: #E6E6E6;
+	margin: 0px;
+
+
+}
+
+td{
+	width : 150px;
+	height : 50px;
+	border-radius:20px;
+
+}
+
+th{
+	height : 50px;
+
+}
+
+tr{
+	border-top: 20px;
+}
+
+h1{
+	text-align: center;
+	margin: 0px;
+	background-color: ;
+	border-radius: 18px;
+
+}
+h2{
+	text-align: left;
+	margin: 0px;
+
+
+}
+
+h3,h4{
+	margin: 0px
+}
+
+a{
+	text-decoration: none;
+	color: #190707; 
+}
+
+
+
+.about{
+	font-family: Andada;
+	font-size: 14px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: 30%;
+	text-align: justify;
+}
+
+
+.presentation{
+	text-align: justify;
+	padding-top:10%;
+	margin-right: 2%;
+	width : 10%;
+}
+
+
+#nav{
+	position: fixed;
+	top: 0px;
+	width: 10%;
+	height: 100%;
+	background-color: #FACC2E;
+
+}
+
+.menu{
+	text-align: left;
+	margin-left: 5px;
+	font-size: 13px;
+}
+
+
+.cv{
+
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.competences{
+	padding-top:10%;
+}
+
+.competences p{
+	margin: 3px;
+	margin-left: 15%;
+	font-style: italic;
+}
+
+.skills{
+	background-color: #FBF5EF;
+	width: 75%;
+	border-radius: 30px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.skill100{
+	background-color: #BEF781;
+	width: 100%;
+	padding-right: 20px; /* Add some right padding */
+	text-align: right; /* Right-align text */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    border-radius: 30px;
+}
+
+.skill75{
+	background-color: #F3F781;
+	width: 75%;
+	padding-right: 20px; /* Add some right padding */
+	text-align: right; /* Right-align text */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    border-radius: 30px;
+}
+
+.skill50{
+	background-color: #F7BE81;
+	width: 50%;
+	padding-right: 20px; /* Add some right padding */
+	text-align: right; /* Right-align text */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    border-radius: 30px;
+}
+
+.skill25{
+	background-color: #F78181;
+	width: 25%;
+	padding-right: 10px; /* Add some right padding */
+	text-align: right; /* Right-align text */
+    line-height: 20px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    border-radius: 30px;
+}
+
+
+#cv{
+	display: flex;
+	flex-direction: row;
+	flex-align: justify;
+	width:80%;
+	margin-left: 15%;
+ 	margin-right: auto; /*Marge droite auto pour centrer la div */
+ 	font-family:"Andada";
+ 	font-size: 14px;
+}
+
+
+
+.cv span{
+	display: block;
+	margin-left: 3%;
+	padding-left: 3%;
+	padding-top: 2%;
+	padding-bottom: 1%;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+}
+
+#wcs{
+	width: 80%;
+	margin-left: 15%;
+	margin-right: auto;
+	font-size: 12px;
+	font-family: Andada;
+}
+
+.reportage{
+	text-align: center;
+}
+
+.off{
+	background-color:#F5ECCE;
+}
+
+.horaire{
+	width:100px;
+	text-align: center;
+	background-color: #FFBF00;
+	border-radius:20px;
+}
+
+.jour{
+	background-color: #FFBF00;
+	border-radius:20px;
+}
+
+.js{
+	background-color: #FFFF00;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.en{
+	background-color: #BFFF00;
+	border-radius: 20px;
+	text-align: center; 
+}
+
+.pratique{
+	background-color: #F6CED8;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.algo{
+	background-color: #2ECCFA;
+	text-align: center;
+	border-radius: 20px; 
+}
+
+.ht{
+	background-color: #A9A9F5;
+	text-align: center;
+	border-radius: 20px;
+}
+
+#pratiques{
+	width:80%;
+	margin-left: 15%;
+	margin-right: auto;
+}
+
+.exo{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.exo td{
+	width: 500px;
+	font-family: Andada;
+	font-style: italic;
+}
+
+.exo p{
+	text-align: center;
+	font-style: initial;
+}
+
+#planning{
+	margin : auto;
+	width: 80%;	
+	margin-left: 15%;
+	overflow-x:auto; /* Affiche une scrollbar si l'écran est plus petit que les informations à afficher // Responsive TABLE */
+}
+
+.tb_planning{
+	vertical-align : center;
+	text-align: center;
+	width: auto;
+	margin-left: auto; /*Marge gauche auto pour centrer la div */
+ 	margin-right: auto; /*Marge droite auto pour centrer la div */
+	border-radius : 10px;
+	border-collapse:  : 0px;
+	font-family:"Andada";
+	background-color:#F5DA81;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+#nav{
+	text-align: center;
+	font-family: "Andada";
+
+
+}
+
+
+
+.bottom{
+	font-size: 11px;
+	font-family: Andada;
+	text-align: center;
+	margin-left: 10%;
+}
+
